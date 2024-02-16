@@ -5,3 +5,9 @@
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    background-color: #f3f6f9;
+  }
+}
