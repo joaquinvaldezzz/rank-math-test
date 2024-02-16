@@ -5,9 +5,10 @@
     "dev": "next dev",
     "format": "prettier --write .",
     "lint": "next lint",
+    "lint:styles": "stylelint --fix 'src/styles/**/*.scss'",
+    "prepare": "husky",
     "preview": "npm run build && npm run start",
-    "start": "next start",
-    "prepare": "husky"
+    "start": "next start"
   },
   "browserslist": {
     "development": [
@@ -62,6 +63,12 @@
     "postcss-sort-media-queries": "^5.2.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
+    "sass": "^1.71.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-recess-order": "^4.6.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-prettier": "^5.0.0",
+    "stylelint-scss": "^6.1.0",
     "typescript": "^5.1.0"
   }
 }
